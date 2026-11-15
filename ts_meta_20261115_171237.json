@@ -1,0 +1,30 @@
+{
+  "n": 300,
+  "interval_minutes": 5,
+  "start": "2026-11-15 00:00:00",
+  "end": "2026-11-16 00:55:00",
+  "variance": "random",
+  "resolved_variance": "const",
+  "trend": "random",
+  "resolved_trend": "exp",
+  "seasonality": "random",
+  "resolved_seasonality": "one",
+  "sigma0": 1.0,
+  "seed": 123,
+  "add_outliers": true,
+  "outlier_prob": 0.02,
+  "outlier_scale": 8.0,
+  "outlier_indices": [
+    20,
+    71,
+    145
+  ],
+  "add_missing": true,
+  "missing_prob": 0.01,
+  "missing_indices": [
+    3,
+    132,
+    174,
+    245
+  ]
+}
